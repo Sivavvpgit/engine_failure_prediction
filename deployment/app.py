@@ -20,8 +20,8 @@ Engine_rpm = st.number_input("Engine rpm", min_value=1, max_value=3000, value=1,
 Lub_oil_pressure = st.number_input("Lub oil pressure", min_value=1, max_value=8, value=1, step=1)
 Fuel_pressure = st.number_input("Fuel pressure", min_value=0, max_value=22, value=1, step=1)
 Coolant_pressure = st.number_input("Coolant pressure", min_value=0, max_value=7, step=1)
-lub_oil_temp = st.number_input("lub oil temp", min_value=70, max_value=90, value=1, step=1)
-Coolant_temp = st.number_input("Coolant temp", min_value=60, max_value=195, value=1, step=1)
+lub_oil_temp = st.number_input("lub oil temp", min_value=70, max_value=90, value=70, step=1)
+Coolant_temp = st.number_input("Coolant temp", min_value=60, max_value=195, value=60, step=1)
 
 
 # Assemble input into DataFrame
